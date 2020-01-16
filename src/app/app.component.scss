@@ -1,0 +1,13 @@
+.menu {
+ // background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  display: inline-block;
+ // color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
