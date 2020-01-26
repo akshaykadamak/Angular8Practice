@@ -1,0 +1,28 @@
+<h3>NGFOR</h3>
+<h3>Names:</h3>
+<span *ngFor="let name of names">{{name}}</span> <br>
+
+<h3>Clients:</h3>
+<span *ngFor="let client of clients">{{client}}</span>
+<br>
+
+<h3>Years:</h3>
+<div *ngFor="let year of Years">{{ year }}</div>
+
+<h3>Team Members Data:</h3>
+<div *ngFor="let teamdata of TeamMembersSummary">
+  <span>{{teamdata.Region}}</span>
+  <span>{{teamdata.TeamMembersCount}}</span>
+  <span>{{teamdata.Status}}</span>
+</div>
+
+<h3>ngfor Nesting</h3>
+Team Member:
+<div *ngFor="let team of TeamMember">
+  <span>{{team.Region}}</span>
+  <ul *ngFor="let member of team.Members">
+    <li>{{member.id}}</li>
+    <li>{{member.name}}</li>
+    <li>{{member.status}}</li>
+  </ul>
+</div>

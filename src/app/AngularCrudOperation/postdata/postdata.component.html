@@ -1,0 +1,17 @@
+<div class="container">
+  <form (ngSubmit)="onSubmit()">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label>FirstName</label>
+          <input type="text" class="form-control" [(ngModel)]="home.firstname" name="firstname">
+        </div>
+        <div class="form-group">
+          <label>LastName</label>
+          <input type="text" class="form-control" [(ngModel)]="home.lastname" name="lastname">
+        </div>
+        <button class="btn btn-primary">INSERT</button>
+      </div>
+    </div>
+  </form>
+</div>

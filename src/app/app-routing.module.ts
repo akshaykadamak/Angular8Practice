@@ -8,6 +8,9 @@ import {IfelseComponent} from "./ifelse/ifelse.component";
 import {NgforComponent} from "./ngfor/ngfor.component";
 import {CrudoperationsComponent} from "./crudoperations/crudoperations.component";
 import {ModelComponent} from "./model/model.component";
+import {GetdataComponent} from "./AngularCrudOperation/getdata/getdata.component";
+import {PostdataComponent} from "./AngularCrudOperation/postdata/postdata.component";
+import {CourceNgforComponent} from "./angularcourcepractice/cource-ngfor/cource-ngfor.component";
 
 
 const routes: Routes = [
@@ -18,7 +21,10 @@ const routes: Routes = [
   {path: 'ifelse', component: IfelseComponent},
   {path: 'ngfor', component: NgforComponent},
   {path: 'angularcrud', component: CrudoperationsComponent},
-  {path: 'model', component: ModelComponent}
+  {path: 'model', component: ModelComponent},
+  {path: 'getdata', component: GetdataComponent},
+  {path: 'postdata', component: PostdataComponent},
+  {path: 'cource-ngfor', component: CourceNgforComponent}
 ];
 
 @NgModule({

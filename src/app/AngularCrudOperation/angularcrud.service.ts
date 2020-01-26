@@ -8,7 +8,7 @@ import {Observable} from "rxjs/internal/Observable";
 })
 export class AngularcrudService {
 data: any;
-taskURL = 'http://localhost:3000/taskInfo';
+taskURL = 'http://localhost:3000/StudInfo';
   constructor(private http: HttpClient) { }
 
 
@@ -20,4 +20,10 @@ taskURL = 'http://localhost:3000/taskInfo';
         )
       )
   }
+
+  createData(info: any): Observable<any>
+  {
+    return this.http.post('http://localhost:3000/StudInfo', info);
+  }
+
 }

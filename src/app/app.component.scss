@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 a {
@@ -10,4 +11,7 @@ a {
  // color: white;
   font-size: 2rem;
   text-decoration: none;
+  background-color: coral;
+  color: white;
+  margin-top: 2rem;
 }

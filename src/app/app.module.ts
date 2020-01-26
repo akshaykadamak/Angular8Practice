@@ -17,6 +17,9 @@ import { CrudoperationsComponent } from './crudoperations/crudoperations.compone
 import { ModelComponent } from './model/model.component';
 import { GetdataComponent } from './AngularCrudOperation/getdata/getdata.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChildComponent } from './child/child.component';
+import { PostdataComponent } from './AngularCrudOperation/postdata/postdata.component';
+import { CourceNgforComponent } from './angularcourcepractice/cource-ngfor/cource-ngfor.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { HttpClientModule } from '@angular/common/http';
     IfelseComponent,
     CrudoperationsComponent,
     ModelComponent,
-    GetdataComponent
+    GetdataComponent,
+    ChildComponent,
+    PostdataComponent,
+    CourceNgforComponent
   ],
   imports: [
     BrowserModule,
